@@ -154,7 +154,7 @@ for i in range(len(coords)):
 img_n = img+ np.random.randn(*img.shape)*noise #Add noise
 
 # Create a figure and display the image with the AFM colormap
-AFM = np.load('lutAFM.npy')
+AFM = np.load('AFM_cmap.npy')
 AFM = ListedColormap(AFM) 
 
 plt.imshow(img_n, cmap=AFM)
