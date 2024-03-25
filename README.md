@@ -1,5 +1,5 @@
 # SimAFM
-Generate an AFM simulation of a molecule from its Protein Data Bank file. 
+Generate an AFM simulation of a molecule from its Protein Data Bank (https://www.rcsb.org/) file.
 Required Libraries: mdtraj (https://www.mdtraj.org/1.9.8.dev0/index.html), numpy, matplotlib.   
 
 Download .pdb file of chosen molecule and add to pdb_files folder 
